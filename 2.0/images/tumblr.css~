@@ -1,0 +1,28 @@
+.tumblr_posts {
+    background-color: rgba(68,68,68,0.6);
+}
+.tumblr_post {
+    background-color: rgba(68,68,68,0.6);
+}
+.tumblr_title {
+    font: 15px Helvetica, Geneva, Verdana, Sans-serif;
+}
+.tumblr_body img {
+    
+}
+.read_more_container {
+
+}
+.read_more_container a {
+    
+}
+
+.tumblr_quote {
+    
+}
+.tumblr_quote p {
+    
+}
+.tumblr_source {
+    
+}
