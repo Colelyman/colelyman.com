@@ -1,0 +1,6 @@
+= wrap_layout :layout do
+  h1 = link_to current_article.title, current_article
+  p.subtitle Cole Lyman
+
+  section
+    == yield
