@@ -1,5 +1,6 @@
 # Activate and configure extensions
 # https://middlemanapp.com/advanced/configuration/#configuring-extensions
+require 'slim'
 
 activate :autoprefixer do |prefix|
   prefix.browsers = "last 2 versions"
@@ -15,6 +16,8 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+set :slim, { :pretty => true, :sort_attrs => false, :format => :html }
+set :frontmatter_extensions, %w(.html .slim)
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
@@ -22,6 +25,8 @@ page '/*.txt', layout: false
 # https://middlemanapp.com/advanced/dynamic-pages/
 # proxy "/this-page-has-no-template.html", "/template-file.html", locals: {
 #  which_fake_page: "Rendering a fake page with a local variable" }
+
+activate :directory_indexes
 
 # Activate and configure blog extension
 
@@ -60,11 +65,11 @@ page "/feed.xml", layout: false
 # Methods defined in the helpers block are available in templates
 # https://middlemanapp.com/basics/helper-methods/
 
-# helpers do
-#   def some_helper
-#     'Helping'
-#   end
-# end
+helpers do
+  def site_title
+    'Syntactic Serif'
+  end
+end
 
 # Build-specific configuration
 # https://middlemanapp.com/advanced/configuration/#environment-specific-settings

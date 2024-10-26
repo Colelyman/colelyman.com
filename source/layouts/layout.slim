@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
+    meta charset="utf-8"
+    meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scable=no" name="viewport"
+    meta name="author" content="Cole Lyman"
+
+    link rel="stylesheet" href="/stylesheets/tufte.css"
+    link rel="stylesheet" href="/stylesheets/styles.css"
+
+    title = current_page.data.title || "#{site_title} | Cole Lyman"
+
+  body
+    article
+      = yield
+    footer
+      p
+        | &copy; 2024 Cole Lyman
