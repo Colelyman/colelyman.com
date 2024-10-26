@@ -9,7 +9,7 @@ html
     link rel="stylesheet" href="/stylesheets/styles.css"
     link rel="stylesheet" href="/stylesheets/tufte.css"
 
-    title = "#{current_page.data.title} | #{site_title}" || "#{site_title} | Cole Lyman"
+    title = current_page.data.title ? "#{current_page.data.title} | #{site_title}" : "#{site_title} | Cole Lyman"
 
   body
     = partial "partials/navbar"
