@@ -10,7 +10,7 @@ nav {
     display: flex;
     justify-content: flex-end;
     padding: 1rem;
-    margin-right: 2rem;
+    margin-right: 45%;
 }
 
 nav > ul {
