@@ -6,6 +6,15 @@ per_page: 5
 h1 = site_title
 p.subtitle Cole Lyman
 
-ul
+section
+  p
+    ' I am a husband, father, and
+    a href="https://edilytics.com" CEO
+    |; welcome to my little spot on the web!
+
+section
+  h2 Writings
+  p Listed from most recent to oldest.
   - page_articles.each do |post|
-    li = post.title
+    p
+      = link_to post.title, post.url
