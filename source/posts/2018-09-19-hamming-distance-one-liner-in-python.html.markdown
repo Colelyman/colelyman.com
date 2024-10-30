@@ -4,8 +4,8 @@ author: "Cole Lyman"
 date: 2018-09-19
 ---
 
-The hamming distance of strings \\(a\\) and \\(b\\) is defined as the number of
-character mismatches between \\(a\\) and \\(b\\). The hamming distance can be calculated
+The hamming distance of strings $a$ and $b$ is defined as the number of
+character mismatches between $a$ and $b$. The hamming distance can be calculated
 in a fairly concise single line using Python.
 
 

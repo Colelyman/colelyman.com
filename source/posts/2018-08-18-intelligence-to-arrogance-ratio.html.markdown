@@ -24,7 +24,7 @@ president of our university, [Dr. Kevin J. Worthen](https://president.byu.edu/bi
 Dr. Worthen as having an incredibly high intelligence to arrogance ratio,
 illustrated below.
 
-\\(\frac{intelligence}{arrogance}\\)
+$$\frac{intelligence}{arrogance}$$
 
 Imagine that one's intelligence and arrogance can be quantified, then the
 intelligence to arrogance ratio would be your quantified intelligence divided by
