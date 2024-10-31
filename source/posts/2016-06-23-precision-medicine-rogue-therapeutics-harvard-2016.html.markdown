@@ -4,14 +4,14 @@ author: "Cole Lyman"
 date: 2016-06-23
 ---
 
-Rare disease, genomics and patient-driven medicine may be terms that you have never heard of. All of these terms relate to [precision medicine]("https://en.wikipedia.org/wiki/Precision_medicine"), medical treatments that are tailored to a specific patient.
+Rare disease, genomics and patient-driven medicine may be terms that you have never heard of. All of these terms relate to [precision medicine](https://en.wikipedia.org/wiki/Precision_medicine), medical treatments that are tailored to a specific patient.
 
-These patients usually have some sort of rare disease, which is any disease that affects [less than 200,000]("https://globalgenes.org/rare-diseases-facts-statistics/") people (in the United States). However, while the diseases themselves may be rare; having a rare disease is _not_ _rare_. There are approximately [30 million]("https://globalgenes.org/rare-diseases-facts-statistics/") people in the United States that suffer from a rare disease.
+These patients usually have some sort of rare disease, which is any disease that affects [less than 200,000](https://globalgenes.org/rare-diseases-facts-statistics/) people (in the United States). However, while the diseases themselves may be rare; having a rare disease is _not_ _rare_. There are approximately [30 million](https://globalgenes.org/rare-diseases-facts-statistics/) people in the United States that suffer from a rare disease.
 
 
 ### What is the purpose of precision medicine?
 
-The goal of precision medicine is to develop treatments to alleviate rare diseases. The range of treatments available are quite limited because [80% of rare disease]("https://globalgenes.org/rare-diseases-facts-statistics/") are genetic based. This means that while traditional medications could treat rare diseases, they will never permanently _cure_ genetic disorders.
+The goal of precision medicine is to develop treatments to alleviate rare diseases. The range of treatments available are quite limited because [80% of rare disease](https://globalgenes.org/rare-diseases-facts-statistics/) are genetic based. This means that while traditional medications could treat rare diseases, they will never permanently _cure_ genetic disorders.
 
 
 ### Undiagnosed Disease Network

@@ -13,7 +13,7 @@ In modern-day Turkey there is a city called Laodicea. One of the attributes of t
 
 ### Spiritual Pipes
 
-John was not referring to the effectiveness of Laodicea’s water system when he wrote “Thou art neither cold nor hot: I would thou wert cold or hot” ([Revelation 3:15]("https://www.lds.org/scriptures/nt/rev/3.15?lang=eng#14")). He prefaced this with “I know thy works” ([Revelation 3:15]("https://www.lds.org/scriptures/nt/rev/3.15?lang=eng#14")); John was referring to the spiritual temperature of the Laodiceans.
+John was not referring to the effectiveness of Laodicea’s water system when he wrote “Thou art neither cold nor hot: I would thou wert cold or hot” ([Revelation 3:15](https://www.lds.org/scriptures/nt/rev/3.15?lang=eng#14)). He prefaced this with “I know thy works” ([Revelation 3:15](https://www.lds.org/scriptures/nt/rev/3.15?lang=eng#14)); John was referring to the spiritual temperature of the Laodiceans.
 
 How can one be spiritually hot or cold? Is there a spiritual lukewarm? I believe that in reality spirituality is a binary matter, meaning that there is no true middle ground. We may say what we believe, but we show what we truly believe through what we do. In the end, we are either on Christ’s side or we are not. Those that say that they are on His side, but show otherwise may be considered to be lukewarm.
 
