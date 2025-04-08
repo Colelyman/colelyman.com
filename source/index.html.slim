@@ -1,6 +1,6 @@
 ---
-pageable: true
-per_page: 5
+pageable: false
+per_page: 100
 ---
 
 h1 = site_title
@@ -14,7 +14,8 @@ section
 
 section
   h2#writings Writings
-  p Listed from most recent to oldest.
   - page_articles.each do |post|
     p
       = link_to post.title, post.url
+      | &nbsp;
+      = post.date.strftime('%d %B %Y')
