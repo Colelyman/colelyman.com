@@ -9,7 +9,7 @@ character mismatches between $a$ and $b$. The hamming distance can be calculated
 in a fairly concise single line using Python.
 
 
-## The Code {#the-code}
+## The Code
 
 ```python
 def hamming(a, b):
@@ -17,7 +17,7 @@ def hamming(a, b):
 ```
 
 
-## The Explanation {#the-explanation}
+## The Explanation
 
 If you aren't familiar with many of the shortcuts that Python provides, this
 line may seem quite cryptic. To best explain how this function works, I will
@@ -40,7 +40,7 @@ def hamming(a, b):
 ```
 
 
-### Zip {#zip}
+### Zip
 
 `zip` is a useful built-in Python function that takes two lists as its arguments
 and returns a list where each element is a tuple, and the first element in the
@@ -61,7 +61,7 @@ print(list(zip(a, b)))
 In this case, the elements of `a` are _paired up_ with the elements of `b`.
 
 
-### List comprehension {#list-comprehension}
+### List comprehension
 
 List comprehensions in Python are a very handy trick to shorten any `for` loop
 in Python. They follow the form of `[... for i in iterable]` where the `...` is
@@ -80,7 +80,7 @@ This code creates a list of all even numbers between 0 and 10, each of which are
 multiplied by 2. Notice how the conditional is placed at the end of the expression.
 
 
-### Lambda functions {#lambda-functions}
+### Lambda functions
 
 Lambda functions may look scary (mostly because it can be hard to recognize
 where the parameters come from), but just think of them as functions that don't
@@ -96,7 +96,7 @@ takes one argument `x` (which is of type tuple) and checks if the two elements
 of the tuple (`x[0]` and `x[1`) are equal, thereby returning a boolean value.
 
 
-### Filter {#filter}
+### Filter
 
 The final piece to our one-line puzzle, `filter`. In functional programming
 there are patterns and ways to perform certain operations. Three ubiquitous
