@@ -58,7 +58,7 @@ activate :directory_indexes
 activate :syntax
 
 set :markdown_engine, :redcarpet
-set :markdown, :fenced_code_blocks => true, :smartypants => true
+set :markdown, :fenced_code_blocks => true, :smartypants => true, :footnotes => true
 
 page "/feed.xml", layout: false
 # Reload the browser automatically whenever files change
@@ -73,6 +73,33 @@ page "/feed.xml", layout: false
 helpers do
   def site_title
     'Syntactic Serif'
+  end
+
+  def tufte_footnotes(html)
+    # Extract footnote definitions
+    footnotes = {}
+
+    # Extract all footnote content
+    if html =~ /<div class="footnotes">/
+      html.gsub!(/<div class="footnotes">.+?<ol>(.+?)<\/ol>.+?<\/div>/m) do
+        footnote_list = $1
+        footnote_list.scan(/<li id="fn(\d+)">.+?<p>(.*?)&nbsp;<a href="#fnref\d+">&#8617;<\/a><\/p>.+?<\/li>/m) do |number, content|
+          footnotes[number] = content.strip
+        end
+        "" # Remove the footnotes section
+      end
+
+      # Replace footnote references with sidenotes
+      html.gsub!(/<sup id="fnref(\d+)"><a href="#fn\d+">\d+<\/a><\/sup>/) do
+        number = $1
+        content = footnotes[number] || "Footnote #{number}"
+        %(<label for="sidenote-#{number}" class="margin-toggle sidenote-number"></label>
+          <input type="checkbox" id="sidenote-#{number}" class="margin-toggle"/>
+          <span class="sidenote">#{content}</span>)
+      end
+    end
+
+    html
   end
 end
 
