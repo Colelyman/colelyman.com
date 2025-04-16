@@ -37,3 +37,13 @@ nav > ul > li > a:hover {
 .katex-display > .katex {
     text-align: left;
 }
+
+.highlight {
+    background-color: #fffff8;
+}
+
+@media (prefers-color-scheme: dark) {
+    .highlight {
+        background-color: #151515;
+    }
+}
