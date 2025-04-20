@@ -1,0 +1,10 @@
+= wrap_layout :layout do
+  h1 = current_page.data.title
+
+  - if current_page.data.last_updated
+    p.subtitle
+      | Last updated on&nbsp;
+      = File.mtime(current_page.source_file).strftime("%d %B %Y")
+
+  section
+    == tufte_footnotes yield
